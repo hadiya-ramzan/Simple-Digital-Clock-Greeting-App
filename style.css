@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.clock {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hrs,
+.mins,
+.secs,
+.am {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 4px 4px 6px yellow;
+    height: 120px;
+    width: 120px;
+    margin: 1px;
+    border-radius: 12px;
+}
+
+.greeting {
+    position: absolute;
+    top: 70%;
+    left: 31%;
+    height: 60px;
+    width: 485px;
+    background-color: lightgray;
+    box-shadow: 6px 6px 6px palevioletred;
+    font-size: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    color: red;
+}
